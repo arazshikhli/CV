@@ -178,3 +178,67 @@ h1 {
   height: 50px;
   background-color: lightcoral;
 } */
+.hobby::before{
+  content: '';
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color: brown;
+  transform-origin: 0%;
+  transform: scaleX(0);
+  transition: all 0.5s;
+}
+.hobby::after{
+  content: '';
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color: brown;
+  transform-origin: 100%;
+  transform: scaleX(0);
+  transition: all 0.3s;
+}
+.hobby:hover::before{
+  transform: scaleX(1);
+}
+.hobby:hover::after{
+  transform: scaleX(1);
+}
+.hobby:hover{
+  color: blue;
+}
+
+.hobby-list::before{
+  content: '';
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color: rgb(89, 42, 165);
+  transform-origin: 0%;
+  transform: scaleX(0);
+  transition: all 0.3s;
+}
+.hobby-list::after{
+  content: '';
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color:  rgb(89, 42, 165);
+  transform-origin: 100%;
+  transform: scaleX(0);
+  transition: all 0.3s;
+}
+.hobby-list:hover::before{
+  transform: scaleX(1);
+}
+.hobby-list:hover::after{
+  transform: scaleX(1);
+}
+.hobby-list:hover{
+  color:rgb(42, 48, 48);
+  
+}
+.btn:hover{
+  background-color: #1bac27;
+  color: #111;
+}
