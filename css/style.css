@@ -49,6 +49,11 @@ a:active {
   margin: auto;
   padding-top: 30px;
 }
+.bg-white{
+  background-color: cornsilk;
+  align-items: center;
+  
+}
 .bg-yellow {
   background: #fff9dc;
 }
@@ -254,5 +259,27 @@ h1 {
   width: 100px;
   background-color: #e5ffe7;
   height: 50px
+
+}
+.inner-it{
+  max-width: 200px;
+  height: auto;
+  background-color: #eff8f0;
+  display: inline;
+  
+  position: relative;
+}
+.it-logo{
+  width: 100px;
+  height: 100px;
+}
+.outer-it{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+.html-img{
+  width: 90px;
+  height: 90px;
 
 }
