@@ -242,3 +242,17 @@ h1 {
   background-color: #1bac27;
   color: #111;
 }
+.site-head{
+  max-width: 1000px;;
+  background-color: #1bac27;
+  height: 80px;
+  margin: 2px auto;
+  
+}
+.logo{
+  position: relative;
+  width: 100px;
+  background-color: #e5ffe7;
+  height: 50px
+
+}
