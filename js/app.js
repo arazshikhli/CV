@@ -1,4 +1,5 @@
-document.querySelector('.it-logo').onclick=()=>{
-  document.querySelector('.result').display='block';
-  
+document.querySelector('.it-logos').onclick=()=>{
+  document.querySelector('.results').display='inline';
+
+
 }

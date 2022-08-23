@@ -54,14 +54,26 @@ a:active {
   align-items: center;
   
 }
+.bg-white:hover{
+  background-color: aquamarine;
+}
 .bg-yellow {
   background: #fff9dc;
+}
+.bg-yellow:hover{
+  background-color: aquamarine;
 }
 .bg-green {
   background: #e5ffe7;
 }
+.bg-green:hover{
+  background-color: aquamarine;
+}
 .bg-red {
   background: #ffe5e5;
+}
+.bg-red:hover{
+  background: aquamarine;
 }
 .card {
   padding: 15px 20px;
@@ -261,25 +273,4 @@ h1 {
   height: 50px
 
 }
-.inner-it{
-  max-width: 200px;
-  height: auto;
-  background-color: #eff8f0;
-  display: inline;
-  
-  position: relative;
-}
-.it-logo{
-  width: 100px;
-  height: 100px;
-}
-.outer-it{
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
-}
-.html-img{
-  width: 90px;
-  height: 90px;
 
-}
